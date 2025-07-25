@@ -45,6 +45,40 @@ a{
     color: #9810fa;
 }
 
+.menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+    gap: 1rem;
+    display: none;
+    text-align: center;
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-toggle:checked + .hamburger + .nav-links {
+    display: flex;
+  }
+}
 /* hero */
 .hero-container{
     background-image: linear-gradient(rgb(152, 16, 250, 0.3),rgba(134, 16, 67, 0.3)), url("../assets/images/hero.png");
@@ -108,7 +142,7 @@ a{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .button-2{
@@ -151,6 +185,11 @@ a{
 .section-heading{
     font-size: 36px;
 }
+@media (max-width: 1024px) {
+    .section-heading {
+        font-size: 30px;
+    }
+}
 .section-subheading{
     color: #484848;
 }
@@ -163,6 +202,14 @@ a{
     width: 100%;
 }
 
+/* @media (max-width: 1024px) {
+    .about-features, .classes-list, .pricing-list{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+} */
 
 
 .about-feature{
@@ -176,12 +223,14 @@ a{
 .feature-heading{
     font-size: 22px;
 }
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .about-features{
         flex-direction: column;
         gap: 50px;
+        justify-content: center;
+        align-items: center;
     }
-}
+} */
 
 .about-icon{
     color: #9810fa;
@@ -260,9 +309,16 @@ a{
     padding: 20px;
     transition: all 0.3s ease;
 }
-.pricing-card .price-heading{
+.price-heading{
     font-size: 30px;
 }
+
+@media (max-width: 1024px) {
+    .price-heading{
+        font-size: 24px;
+    }
+}
+
 .pricing-details{
     display: flex;
     flex-direction: column;
