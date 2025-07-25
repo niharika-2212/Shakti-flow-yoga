@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Shakti Flow Yoga</title>
 </head>
 
@@ -16,28 +20,28 @@
             <div class="nav-container">
                 <div class="logo">Shakti Flow Yoga</div>
                 <div class="nav-links">
-                    <div>About</div>
-                    <div>Classes</div>
-                    <div>Pricing</div>
-                    <div>Contact</div>
+                    <div><a href="#about">About</a></div>
+                    <div><a href="#classes">Classes</a></div>
+                    <div><a href="#classes">Pricing</a></div>
+                    <div><a href="#contact">Contact</a></div>
                 </div>
             </div>
         </nav>
         <!-- hero section -->
-        <section>
+        <section id="hero">
             <div class="hero-container">
                 <div class="hero-content">
                     <div class="hero-heading">Find Your Balance with Shakti Flow</div>
                     <div class="hero-subheading">Yoga for body, mind & spirit - in the heart of your city.</div>
                     <div class="hero-buttons">
-                        <button class="button-1">Join a Class</button>
-                        <button class="button-2">View Class schedule</button>
+                        <button class="button-1"><a href="#book">Join our Class</a></button>
+                        <button class="button-2"><a href="#classes">View Class schedule</a></button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- about -->
-        <section>
+        <section id="about">
             <div class="about-container">
                 <div class="about-headings">
                     <div class="section-heading">Why Shakti Flow?</div>
@@ -47,17 +51,17 @@
                 </div>
                 <div class="about-features">
                     <div class="about-feature">
-                        <div><i class="fa-solid fa-certificate"></i></div>
+                        <div><i class="fa-solid fa-certificate about-icon"></i></div>
                         <div class="feature-heading">Certified Instructors</div>
                         <div>Experienced teachers with deep knowledge of yoga traditions</div>
                     </div>
                     <div class="about-feature">
-                        <div><i class="fa-solid fa-user"></i></div>
+                        <div><i class="fa-solid fa-user about-icon"></i></div>
                         <div class="feature-heading">Small Class Sizes</div>
                         <div>Personalized attention in intimate group settings</div>
                     </div>
                     <div class="about-feature">
-                        <div><i class="fa-solid fa-heart"></i></div>
+                        <div><i class="fa-solid fa-heart about-icon"></i></div>
                         <div class="feature-heading">All Levels Welcome</div>
                         <div>From beginners to advanced practitioners</div>
                     </div>
@@ -65,7 +69,7 @@
             </div>
         </section>
         <!-- classes -->
-        <section>
+        <section id="classes">
             <div>
                 <div class="classes-container">
                     <div class="about-headings">
@@ -75,30 +79,201 @@
                             are guided by certified instructors in a peaceful and supportive space.
                         </div>
                     </div>
+                    <div class="classes-list">
+                        <div class="class-card">
+                            <div class="class-image"><img src="./assets/images/vin.png" alt="morning Yoga"></div>
+                            <div class="class-title">Morning Vinyasa Flow</div>
+                            <div class="class-detail">
+                                <div><i class="fa-solid fa-clock class-icon"></i>6:30 AM - 7:30 AM (Mon-Fri)</div>
+                                <div><i class="fa-solid fa-star class-icon"></i>Energizing, fast-paced sequences</div>
+                                <div><i class="fa-solid fa-heart class-icon"></i>Ideal for strength & cardio lovers</div>
+                            </div>
+                        </div>
+                        <div class="class-card">
+                            <div class="class-image"><img src="./assets/images/hath.png" alt="hath Yoga"></div>
+                            <div class="class-title">Gentle Hatha Yoga</div>
+                            <div class="class-detail">
+                                <div><i class="fa-solid fa-clock class-icon"></i>10:00 AM - 11:00 AM (Daily)</div>
+                                <div><i class="fa-solid fa-star class-icon"></i>Focus on alignment & breath</div>
+                                <div><i class="fa-solid fa-heart class-icon"></i>Perfect for beginners & seniors</div>
+                            </div>
+                        </div>
+                        <div class="class-card">
+                            <div class="class-image"><img src="./assets/images/yin.png" alt="yin Yoga"></div>
+                            <div class="class-title">Yin & Restore</div>
+                            <div class="class-detail">
+                                <div><i class="fa-solid fa-clock class-icon"></i>7:00 PM - 8:00 PM (Tue, Thu, Sun)</div>
+                                <div><i class="fa-solid fa-star class-icon"></i>Slow, deep stretching poses</div>
+                                <div><i class="fa-solid fa-heart class-icon"></i>Helps with flexibility & stress relief</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
         <!-- pricing -->
-        <section>
+        <section id="pricing">
+            <div class="pricing-container">
+                <div class="about-headings">
+                    <div class="section-heading">Simple Pricing</div>
+                    <div class="section-subheading">
+                        We keep pricing simple. Choose what works best for your lifestyle. No contracts. Cancel anytime.
+                    </div>
+                </div>
+                <div class="pricing-list">
+                    <div class="pricing-card">
+                        <div class="font-title">Drop-in class</div>
+                        <div class="price-heading">₹300</div>
+                        <div class="pricing-subtitle">/session</div>
+                        <div class="pricing-details">
+                            <div><i class="fa-solid fa-check tick-icon"></i>Ideal for casual practitioners</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Pay-per-session</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Includes mat and props</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>No prior booking needed</div>
+                        </div>
+                        <button class="button-1"><a href="#book">Book a class</a></button>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="font-title">Monthly Unlimited</div>
+                        <div class="price-heading">₹2000</div>
+                        <div class="pricing-subtitle">/month</div>
+                        <div class="pricing-details">
+                            <div><i class="fa-solid fa-check tick-icon"></i>Access all group classes</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Priority booking</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Free access to community workshops</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Option to pause membership</div>
+                        </div>
+                        <button class="button-1"><a href="#book">Book a class</a></button>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="font-title">1-on-1 Private Session</div>
+                        <div class="price-heading">₹500</div>
+                        <div class="pricing-subtitle">/session</div>
+                        <div class="pricing-details">
+                            <div><i class="fa-solid fa-check tick-icon"></i>Personalized attention</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Choose your time & style</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Focused on your goals</div>
+                            <div><i class="fa-solid fa-check tick-icon"></i>Ideal for recovery or specific needs</div>
+                        </div>
+                        <button class="button-1"><a href="#book">Book a class</a></button>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <!-- book -->
-        <section>
-
+        <section id="book">
+            <div class="book-container">
+                <div class="about-headings">
+                    <div class="section-heading">Book a class</div>
+                    <div class="section-subheading">Ready to start your yoga journey? Book your class now and take the
+                        first
+                        step towards wellness.</div>
+                </div>
+                <form>
+                    <div class="book-heading">Class booking</div>
+                    <div class="form-rows">
+                        <div class="form-group">
+                            <label for="name">Full name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Email</label>
+                            <input type="email" id="name" name="name" placeholder="abc@example.com" required />
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="form-group">
+                            <label for="number">Phone number</label>
+                            <input type="text" id="number" name="number" placeholder="+91 9876543210" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="class">Class type</label>
+                            <select name="class" id="class">
+                                <option value="vinyasa">Vinyasa Flow</option>
+                                <option value="hatha">Hatha Yoga</option>
+                                <option value="yin">Yin Yoga</option>
+                                <option value="private">1-on-1 Private Session</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="form-group">
+                            <label for="date">Preferred date</label>
+                            <input type="date" id="date" name="date" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="exp">Experience level</label>
+                            <select name="exp" id="exp">
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="req">Special requests, or any health concern</label>
+                        <textarea name="req" id="req" rows="3"></textarea>
+                    </div>
+                    <button class="button-1">Book my class</button>
+                </form>
+            </div>
         </section>
         <!-- testimonials -->
-        <section>
+        <!-- <section>
 
-        </section>
+        </section> -->
         <!-- contact -->
-        <section>
-
+        <section id="contact">
+            <div class="contact-container">
+                <div class="section-heading">Get in Touch</div>
+                <div class="contact-content">
+                    <form>
+                        <div class="info-heading">Send us a message</div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3" placeholder="Your message"></textarea>
+                        </div>
+                        <button class="button-1">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-details">
+                            <div class="info-heading">Visit out studio</div>
+                            <div>
+                                <i class="fa-solid fa-location-dot contact-icon"></i> 123 Wellness Street, Bangalore, Karnataka 560001
+                            </div>
+                            <div><i class="fa-solid fa-phone contact-icon"></i> +91 98765 43210</div>
+                            <div><i class="fa-solid fa-at contact-icon"></i> hello@shaktiflowYoga.com</div>
+                        </div>
+                        <div class="contact-socials">
+                            <div class="info-heading">Follow us</div>
+                            <div class="socials">
+                                <i class="fa-brands fa-linkedin social-icon"></i>
+                                <i class="fa-brands fa-instagram social-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- footer -->
         <footer>
-
+            <div class="footer">
+                <div class="feature-heading rev">Ready to begin your yoga journey?</div>
+                <button class="button-2 purple"><a href="#book">Join now</a></button>
+                <hr />
+                <div class="footer-subtitle">&copy; 2025 Shakti Flow Yoga. All rights reserved.</div>
+            </div>
         </footer>
     </div>
+    <!-- </div> -->
 </body>
 
 </html>
