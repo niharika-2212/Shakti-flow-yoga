@@ -1,6 +1,6 @@
 # Shakti Flow Yoga – Landing Page
 
-A clean and responsive one-page landing website for a fictional yoga studio named **Shakti Flow Yoga**. Built using only **HTML and CSS**, this project is perfect for freelance portfolio use and showcases a professional layout, responsive navigation, and an email-based contact form.
+A clean and responsive one-page landing website for a fictional yoga studio named **Shakti Flow Yoga**. Built using only **HTML and CSS**, it has a professional layout, responsive navigation, and an email-based contact form.
 
 ## Features
 
