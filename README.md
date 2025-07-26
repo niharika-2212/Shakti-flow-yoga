@@ -8,10 +8,10 @@ A clean and responsive one-page landing website for a fictional yoga studio name
 - Pure HTML + CSS (no frameworks)
 - Hamburger menu without JavaScript
 - Class sections with pricing
-- Contact/booking form using [FormSubmit](https://formsubmit.co)
+- Contact/booking form.
 
 ## Live demo
-You can view the website [here]().
+You can view the website [here](https://niharika-2212.github.io/Shakti-flow-yoga/).
 
 ## Author
 Niharika Manhar
